@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/stonelouse/learngo/stringutil"
+)
 
 func main() {
-	fmt.Println("Hello go")
+	fmt.Println(stringutil.Reverse("Hello go"))
 }
