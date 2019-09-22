@@ -18,6 +18,5 @@ func main() {
 	a, b := mathutil.Swap(5, 2)
 	fmt.Printf("Swap(5, 2) = %d, %d\n", a, b)
 
-	// I don't know why this works only this way; hello.go works different?!
 	fmt.Println(stringutil.MySplitIn2("First part, second part", ","))
 }
