@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "github.com/stonelouse/learngo/tour03variables/util"
 
 var pint1, pint2 int                                   // two package variables with default value of int on package level
 var pbool1, pstring1, pfloat1 = true, "pstring1", 3.14 // when we use initial values, we can ommit the type
@@ -22,4 +23,8 @@ func main() {
 
 	fstring2 := fstring1 // Short variable declaration inside functions
 	fmt.Println(fstring2)
+
+	fmt.Printf("Type: %T Value: %v\n", util.ToBe, util.ToBe)
+	fmt.Printf("Type: %T Value: %v\n", util.GetMaxInt, util.GetMaxInt)
+	fmt.Printf("Type: %T Value: %v\n", util.Z, util.Z)
 }
