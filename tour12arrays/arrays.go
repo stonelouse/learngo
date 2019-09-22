@@ -15,6 +15,6 @@ func main() {
 	primes := [6]int{2, 3, 5, 7, 11, 13}
 	fmt.Println(primes)
 
-	primes2 := []int{2, 3, 5}
+	primes2 := []int{2, 3, 5} // this creates an array and then builds a slice that reference it
 	fmt.Println(primes2)
 }
